@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title{
+    color: white;
+    background-color: teal;
+    width: 300px;
+    padding: 20px;
+}
+
+h2:hover{
+    color: red;
+}
+
+.about-me{
+    color: chartreuse;
+}
+
+li:first-child{
+    color: aqua;
+}
+
+li:last-child{
+    color: bisque;
+}
+
+li:nth-child(4){
+   color: aquamarine; 
+}
+
+.container{
+    background: teal;
+    margin: 5px;
+    margin-bottom: 35px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-item{
+    background: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    width: 80px;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.container2{
+    background: teal;
+    margin: 0px;
+    padding: 0 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.container-item2{
+    background: red;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 370px;
+    line-height: 50px;
+}
+
+.container-item2:nth-child(2){
+    background: darkorchid;
+    color: white;
+    font-size: 20px;
+    width: 20px;
+
+}
+
+.container-item2:nth-child(3){
+    background: blue;
+    color: white;
+    padding-left: 55px ;
+    font-size: 20px;
+    text-align: left;
+    width: 400px;
+
+}
+
